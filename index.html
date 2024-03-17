@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Rahul Choudhary-Programmer,Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/88d9eb36c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+              <p>Software developer | Programmer</p>  
+              <h1>Hi,I'm <span>Rahul</span>Choudhary<br>from Kanpur</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm currently pursuing B.Tech in Computer Science at Maharana Pratap Engineering College. With a solid grasp of HTML, CSS, JavaScript, Python, C++, and C, along with expertise in OOPs, OS, SQL, and DBMS, I completed a 4-month internship at Gao Tek Inc as a software developer. Passionate about technology and problem-solving, I'm eager to apply my skills to real-world projects and contribute to innovative solutions.
+                        
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skils</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programmer/Coder</span><br>C++ | C | Python</li>
+                            <li><span>Web Developer</span><br>HTML | CSS | Javascript</li>
+                            <li><span>Developer</span><br>SQL | OOPS | Operating System | Dbms</li>
+                            <li><span>Editor</span><br>Photo and Video Editing</li>
+                        </ul>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Dec 2022-May 2023</span><br>software Developer Intern |Team Leader<br>Company-Gao TeK Inc.</li>
+                            <li><span>Nov 2022</span><br>ML Intern <br>Company-YBI foundation</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech(computer Science) <br>from Maharana Pratap Engineering College,Kanpur-75%</li>
+                            <li><span>2020</span><br>Intermediate <br>from Aditya Birla Public School,Awalpur-80%</li>
+                            <li><span>2018</span><br>High School <br>from Aditya Birla Public School,Awalpur-80%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programmer | Coder</h2>
+                    <p>As a skilled programmer and coder, I specialize in crafting innovative software solutions that leverage cutting-edge technologies to address complex challenges. With a deep understanding of computer systems and a proficiency in multiple programming languages, I bring creativity and precision to every project I undertake</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-keyboard"></i>
+                    <h2>Web design</h2>
+                    <p>As a passionate web designer, I specialize in creating visually stunning and user-centric websites that leave a lasting impression. With a keen eye for design aesthetics and a deep understanding of user experience principles, I bring creativity and functionality to every project I undertake</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>Photo/Video editing</h2>
+                    <p>As a skilled photo and video editor, I specialize in transforming raw footage and images into captivating visual experiences that resonate with audiences. With a keen eye for detail and a passion for storytelling, I bring creativity and technical expertise to every project I undertake</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Face Recognition Attendance system</h3>
+                        <p>A face recognition attendance system project involves creating a system that automatically records attendance by using facial recognition technology. It consists of cameras to capture facial images, software to process and compare these images with a database of pre-registered faces, and a mechanism to update attendance records in real-time. The goal is to streamline attendance tracking, eliminate manual entry, and enhance accuracy and efficiency.</p>
+                        <a href="https://github.com/rahulC12/Face-Recognition-attendance-system"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Hexa-Virtual Assistant</h3>
+                        <p>A virtual assistant project involves creating software that can interact with users, understand their queries, and perform tasks or provide information. It uses technologies like natural language processing and AI to interpret user inputs and respond appropriately. Examples include voice-activated assistants like Alexa and text-based chatbots. The project includes designing the interface, implementing algorithms, integrating with external services, and improving capabilities over time.</p>
+                        <a href="https://github.com/rahulC12/Personal-Assistant"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping site</h3>
+                        <p>An online shopping site is a platform where users can browse, select, and purchase products or services online. It involves creating a user-friendly website or app with features like product listings, search, shopping cart, secure payment processing, and order management. The goal is to provide a seamless shopping experience while ensuring security and reliability.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+             <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 clas="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-paper-plane"></i>rahulpradipchoudhary9860@gmail.com</p>
+                   <p><i class="fa-solid fa-square-phone"></i>+91 9322532716</p>
+                   <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/miui_shoot?igsh=MW1laTAxOHJoZncwYg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rahul-pradip-choudhary-25b57621b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                   </div>
+                   <a href="images/mycv.pdf"  download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contacr-right">
+                  <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email"placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                  </form>
+                  <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>Copyright &copy; Made By Rahul Choudhary<i class="fa-solid fa-heart"></i></p>
+</div>
+    <script>
+       var tablinks=document.getElementsByClassName("tab-links");
+       var tabcontents=document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw4f_cZtFmNjRV8RjbeNk9bFat3AmnI8Sx_5o7aC1tenoylvUdcBImyu7mt94aoiWWc/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const ms=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
